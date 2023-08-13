@@ -1,4 +1,10 @@
 The Genathor Times|
+The News (Beta 3.0):|
+THE GREAT INDEPENDENCE!!!|
+·THE CALCULATORS IS NOW AVAILABLE ON MEDIAFIRE!!!|
+·File "ConsoleApp8.snl" finally removed, I started moving to microsoft visual studio code (the calculator was made in VS community) that's where the name of the version "The great independence"
+comes from, working with VS community is uncomfortable!!!|
+·Announcement in my threads account|
 THE BETA 2.0 IS FINALLY UPLOADED!!!|
 The News (Beta 2.0):|
 ·COMPLETELY TRANSLATED PROGRAM!!!|
@@ -6,7 +12,8 @@ The News (Beta 2.0):|
 the error that instead of multiplying this subtracted.|
 ·Secret message added|
 That was the news of the update (Beta 2.0) they were few but they were also laborious, Nice Weekend!!!|
-The news of the earlier version (Beta):|
+The News (Beta):|
+THE BETA IS FINALLY UPLOADED!!!|
 ·The "ERROR 001" was added, the "ERROR 001" is caused by misplaced the number of the beginning message (the one that says "dial 1 to add").|
 Example:|
 "Choose what you want to do, mark 1 to add two numbers, mark 2 to subtract two numbers, mark 3 to multiply 2 numbers or mark 4 to divide two numbers"|
