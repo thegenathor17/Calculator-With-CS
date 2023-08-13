@@ -1,7 +1,7 @@
 The Genathor Times|
 The News (Beta 3.0):|
 THE GREAT INDEPENDENCE!!!|
-·THE CALCULATOR IS NOW AVAILABLE ON MEDIAFIRE!!!|
+·THE CALCULATOR IS NOW AVAILABLE ON MEDIAFIRE!!! (https://www.mediafire.com/file/l84m3ue7ib37tjx/Calculator.rar/file)|
 ·File "ConsoleApp8.snl" finally removed, I started moving to microsoft visual studio code (the calculator was made in VS community) that's where the name of the version "The great independence" comes from, working with VS community is uncomfortable!!!|
 ·Announcement in my threads account|
 That was the news of the update (Beta 3.0 "THE GREAT INDEPENDENCE!!!") there are few changes but they are very important, Nice Weekend!!!|
