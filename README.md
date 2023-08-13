@@ -1,6 +1,12 @@
 The Genathor Times
-THE BETA IS FINALLY UPLOADED!!!
-The News:
+THE BETA 2.0 IS FINALLY UPLOADED!!!
+The News (Beta 2.0):
+·COMPLETELY TRANSLATED PROGRAM!!!
+·Bug of "choose which number you are going to subtract" in the multiply option, SOLVED!!! That section of the code always gives me problems, the last version I had to solve 
+the error that instead of multiplying this subtracted.
+·Secret message added
+That was the news of the update (Beta 2.0) they were few but they were also laborious, Nice Weekend!!!
+The news of the earlier version (Beta):
 ·The "ERROR 001" was added, the "ERROR 001" is caused by misplaced the number of the beginning message (the one that says "dial 1 to add").
 Example:
 "Choose what you want to do, mark 1 to add two numbers, mark 2 to subtract two numbers, mark 3 to multiply 2 numbers or mark 4 to divide two numbers"
@@ -13,7 +19,7 @@ the message at the beginning, it was added because we wanted to avoid errors whe
 ·While added, it is now an infinite calculator!!! It was complicated to add, I had to change the structure of the code completely
 ·THE "README" HAS BEEN ADDED!!!!!!
 ·Secret comment added in the code!!!
-That was the news of the update, Nice Weekend!!!
+That was the news of the earlier version (Beta)
 Things that are always there:
 Minimum requirements!!!
 ·13MB of RAM
@@ -23,3 +29,4 @@ Recommended Requirements!!!
 ·14MB of RAM
 ·A potato that you can use like a processor (the trashcan sometimes has bad things)
 ·Screen (Optional)
+Thank you for reading today
