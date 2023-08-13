@@ -1,5 +1,4 @@
 The Genathor Times|
-<<<<<<< HEAD
 The News (Beta 4.0):|
 GREAT UPDATE!!!|
 ·2 Secret comments added in the code|
@@ -10,8 +9,6 @@ GREAT UPDATE!!!|
 ·Much more secrets, have fun looking for them yourself (it is not worth looking at the code)|
 ·The code reached the 200 lines!!!!|
 That was the news of the update (Beta 4.0). This time there were many things and very laborious, Happy Sunday!!!|
-=======
->>>>>>> 7723e1c1ff1434ab0a85e2d9d79b18eea1698157
 The News (Beta 3.0):|
 THE GREAT INDEPENDENCE!!!|
 ·THE CALCULATOR IS NOW AVAILABLE ON MEDIAFIRE!!! (https://www.mediafire.com/file/v4q5ox5dur8m4ne/Calculadora.rar/file)|
