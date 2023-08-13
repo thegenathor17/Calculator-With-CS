@@ -5,6 +5,7 @@ namespace Metodos
     {
         static void Main(string[] args)
         {
+            bool ERROR002 = false;
             string Operacion;
             Console.WriteLine("Welcome to Nahum's calculator! I am going to ask you to use commas instead of points in case the numbers you are going to use are decimals, example: 123,123");
             while (true)
@@ -19,10 +20,33 @@ namespace Metodos
                     num1 = Console.ReadLine();
                     Console.WriteLine("Write the second number you want to add: ");
                     num2 = Console.ReadLine();
-                    decimal miInteger1 = decimal.Parse(num1);
-                    decimal miInteger2 = decimal.Parse(num2);
-                    decimal res = Sumar(miInteger1, miInteger2);
-                    Console.WriteLine("Your result is: {0}", res);
+                    int Point2 = num2.IndexOf(',');
+                    int Point1 = num1.IndexOf(',');
+                    if (Point1 == -1)
+                    {
+                        ERROR002 = true;
+                    }
+                    else if (Point1 != -1)
+                    {
+                        decimal miInteger1 = decimal.Parse(num1);
+                        decimal miInteger2 = decimal.Parse(num2);
+                        decimal res = Sumar(miInteger1, miInteger2);
+                        Console.WriteLine("Your result is: {0}", res);
+                    }
+                    if (Point2 == -1)
+                        {
+                        ERROR002 = true;
+                        }
+                    else if (Point2 != -1)
+                    {
+                        decimal miInteger1 = decimal.Parse(num1);
+                        decimal miInteger2 = decimal.Parse(num2);
+                        decimal res = Sumar(miInteger1, miInteger2);
+                        Console.WriteLine("Your result is: {0}", res);
+                    }
+
+                    
+                        
                 }
                 else if (Operacion == "2") //Resta
                 {
@@ -32,10 +56,30 @@ namespace Metodos
                     num1 = Console.ReadLine();
                     Console.WriteLine("Write the number that you want to subtract: ");
                     num2 = Console.ReadLine();
-                    decimal miInteger1 = decimal.Parse(num1);
-                    decimal miInteger2 = decimal.Parse(num2);
-                    decimal res = Restar(miInteger1, miInteger2);
-                    Console.WriteLine("Your result is: {0}", res);
+                    int Point2 = num2.IndexOf(',');
+                    int Point1 = num1.IndexOf(',');
+                    if (Point1 == -1)
+                    {
+                        ERROR002 = true;
+                    }
+                    else if (Point1 != -1)
+                    {
+                        decimal miInteger1 = decimal.Parse(num1);
+                        decimal miInteger2 = decimal.Parse(num2);
+                        decimal res = Restar(miInteger1, miInteger2);
+                        Console.WriteLine("Your result is: {0}", res);
+                    }
+                    if (Point2 == -1)
+                    {
+                        ERROR002 = true;
+                    }
+                    else if (Point2 != -1)
+                    {
+                        decimal miInteger1 = decimal.Parse(num1);
+                        decimal miInteger2 = decimal.Parse(num2);
+                        decimal res = Restar(miInteger1, miInteger2);
+                        Console.WriteLine("Your result is: {0}", res);
+                    }
                 }
                 else if (Operacion == "3") //Multiplicacion
                 {
@@ -45,10 +89,30 @@ namespace Metodos
                     num1 = Console.ReadLine();
                     Console.WriteLine("Write the second number: ");
                     num2 = Console.ReadLine();
-                    decimal miInteger1 = decimal.Parse(num1);
-                    decimal miInteger2 = decimal.Parse(num2);
-                    decimal res = Multiplicar(miInteger1, miInteger2);
-                    Console.WriteLine("Tu resultado es: {0}", res);
+                    int Point2 = num2.IndexOf(',');
+                    int Point1 = num1.IndexOf(',');
+                    if (Point1 == -1)
+                    {
+                        ERROR002 = true;
+                    }
+                    else if (Point1 != -1)
+                    {
+                        decimal miInteger1 = decimal.Parse(num1);
+                        decimal miInteger2 = decimal.Parse(num2);
+                        decimal res = Multiplicar(miInteger1, miInteger2);
+                        Console.WriteLine("Your result is: {0}", res);
+                    }
+                    if (Point2 == -1)
+                    {
+                        ERROR002 = true;
+                    }
+                    else if (Point2 != -1)
+                    {
+                        decimal miInteger1 = decimal.Parse(num1);
+                        decimal miInteger2 = decimal.Parse(num2);
+                        decimal res = Multiplicar(miInteger1, miInteger2);
+                        Console.WriteLine("Your result is: {0}", res);
+                    }
                 }
                 else if (Operacion == "4") //Division
                 {
@@ -58,11 +122,35 @@ namespace Metodos
                     num1 = Console.ReadLine();
                     Console.WriteLine("Write the dividend: ");
                     num2 = Console.ReadLine();
-                    decimal miInteger1 = decimal.Parse(num1);
-                    decimal miInteger2 = decimal.Parse(num2);
-                    decimal res = Dividir(miInteger1, miInteger2);
-                    Console.WriteLine("Your result is: {0}", res);
+                    int Point2 = num2.IndexOf(',');
+                    int Point1 = num1.IndexOf(',');
+                    if (Point1 == -1)
+                    {
+                        ERROR002 = true;
+                    }
+                    else if (Point1 != -1)
+                    {
+                        decimal miInteger1 = decimal.Parse(num1);
+                        decimal miInteger2 = decimal.Parse(num2);
+                        decimal res = Dividir(miInteger1, miInteger2);
+                        Console.WriteLine("Your result is: {0}", res);
+                    }
+                    if (Point2 == -1)
+                    {
+                        ERROR002 = true;
+                    }
+                    else if (Point2 != -1)
+                    {
+                        decimal miInteger1 = decimal.Parse(num1);
+                        decimal miInteger2 = decimal.Parse(num2);
+                        decimal res = Dividir(miInteger1, miInteger2);
+                        Console.WriteLine("Your result is: {0}", res);
+                    }
 
+                }
+                else if (ERROR002 == true)
+                {
+                    Console.WriteLine("ERROR 002, Please don't use points");
                 }
                 else
                 {
@@ -89,6 +177,7 @@ namespace Metodos
             //Nivel de acceso - (static) - Tipo de retorno - Nombre del metodo (Parametro 1, Parametro 2)
             //I have a little problem guys, i can't push with git to update the repository, but if you are reading it, I was finally able to push!!!
             //I was finally able to push :)!!!
+            //
         }
     }
 }
